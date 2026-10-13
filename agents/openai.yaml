@@ -1,0 +1,4 @@
+interface:
+  display_name: "C# File Header Docs"
+  short_description: "Add concise headers to new C# files"
+  default_prompt: "Use $csharp-file-header-docs to add a concise purpose header to any newly created .cs files."
