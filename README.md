@@ -59,12 +59,12 @@ namespace MyApp.Application.Services;
 
 **A. 使用 Codex 官方安装器（推荐）**
 ```bash
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo <YOUR_GITHUB_USERNAME>/csharp-file-header-docs
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --repo liYaHaoo/csharp-file-header-docs
 ```
 
 **B. 直接 Git Clone**
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/csharp-file-header-docs.git ~/.codex/skills/csharp-file-header-docs
+git clone https://github.com/liYaHaoo/csharp-file-header-docs.git ~/.codex/skills/csharp-file-header-docs
 ```
 安装后，Codex 在任何 C# 项目中新建 `.cs` 文件时均可直接激活使用。
 
@@ -77,7 +77,7 @@ git clone https://github.com/<YOUR_GITHUB_USERNAME>/csharp-file-header-docs.git 
 **A. 作为 Git Submodule 引入（推荐）：**
 ```bash
 mkdir -p .agents/skills
-git submodule add https://github.com/<YOUR_GITHUB_USERNAME>/csharp-file-header-docs.git .agents/skills/csharp-file-header-docs
+git submodule add https://github.com/liYaHaoo/csharp-file-header-docs.git .agents/skills/csharp-file-header-docs
 ```
 
 **B. 软链接或直接复制：**
