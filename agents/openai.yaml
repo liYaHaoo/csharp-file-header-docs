@@ -1,4 +1,4 @@
 interface:
-  display_name: "C# File Header Docs"
-  short_description: "Add concise headers to new C# files"
-  default_prompt: "Use $csharp-file-header-docs to add a concise purpose header to any newly created .cs files."
+  display_name: "C# Vision Project Rules"
+  short_description: "C# 工业视觉项目工程规则、文件头规范与 AGENTS.md 准则生成"
+  default_prompt: "Use $csharp-vision-project-rules to inspect vision code conventions, enforce file headers, or initialize AGENTS.md for this C# vision project."
